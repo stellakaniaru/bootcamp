@@ -5,7 +5,7 @@ def super_sum(A):
 	 -doubles every odd number
 	and returns the sum of all.
 	'''
-	
+
 	total = 0
 
 	for i in A:
@@ -15,4 +15,6 @@ def super_sum(A):
 			total += (i * 2)
 
 	return total
+
+
 
