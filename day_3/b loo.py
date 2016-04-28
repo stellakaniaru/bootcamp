@@ -22,4 +22,9 @@ x:10, y:40
 
 	
 for i in f:
-	
+	if len(i) == 3:
+		print "x : {}, y : {}, z : {}".format(*i)
+
+	else:
+		print "x : {}, y : {}".format(*i)
+		
