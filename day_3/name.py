@@ -1,0 +1,1 @@
+i am {}, and {} old.format('stella',2)

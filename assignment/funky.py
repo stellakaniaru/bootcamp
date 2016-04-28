@@ -10,5 +10,4 @@ def funky(a , b):
 		e = funky
 		return 'operand not supported'
 
-stl = funky('ste','ret')
-print stl
+

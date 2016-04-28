@@ -6,10 +6,11 @@ def sum_digits(A):
 	'''
 	total=0
 
-	for i in A:
-		total += (i / 10)
+	while i:
 		total += (i % 10)
+        i //= 10
 	return total
 
-print sum_digits([45,10,30])
+print sum_digits([400,10,30])
+
 
